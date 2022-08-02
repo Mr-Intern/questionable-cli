@@ -17,7 +17,7 @@ var animeCmd = &cobra.Command{
 	Long: `A command that opens up an anime to watch.
 	At the time of writing, that anime is OnePiece`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("anime called")
+		fmt.Println("https://9anime.lu/watch/one-piece.ov8/ep-1")
 	},
 }
 
