@@ -17,7 +17,7 @@ var rootCmd = &cobra.Command{
 	Use:   "qcli",
 	Short: "A very questionable cli indeed.",
 	Long: `
-
+--------------------------------------------------------------------------------
 
 ▄█▀▀▀█▄                 ▄▄█▀▀▀█▄█████▀   ▀████▀
 ██▀  ▀█▄              ▄██▀     ▀█ ██       ██
@@ -27,7 +27,7 @@ var rootCmd = &cobra.Command{
   ▄▄                  ▀██▄     ▄▀ ██    ▄█ ██
   ██                    ▀▀█████▀██████████████▄
 
-
+--------------------------------------------------------------------------------
 
 A CLI that does miscellaneous things. Things that make you ask yourself
 why someone bothered to shove it into a CLI at all.`,

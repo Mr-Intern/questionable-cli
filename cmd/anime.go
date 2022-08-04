@@ -14,10 +14,15 @@ import (
 var animeCmd = &cobra.Command{
 	Use:   "anime",
 	Short: "watch anime",
-	Long: `A command that opens up an anime to watch.
-	At the time of writing, that anime is OnePiece`,
+	Long: `prints a list of links to various anime and manga I enjoy`,
 	Run: func(cmd *cobra.Command, args []string) {
+		fmt.Println("--------------------------------------------------------------------------------")
+		fmt.Println("ONE PIECE")
 		fmt.Println("https://9anime.lu/watch/one-piece.ov8/ep-1")
+		fmt.Println("--------------------------------------------------------------------------------")
+		fmt.Println("BESERK manga")
+		fmt.Println("https://readberserk.com/chapter/berserk-chapter-a0/")
+		fmt.Println("--------------------------------------------------------------------------------")
 	},
 }
 
