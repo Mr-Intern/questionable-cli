@@ -6,3 +6,11 @@ This is a cli written in Go with a lot of help from Cobra. I wrote it to have so
 It's public but I don't really see what use anyone else could get out of it lol. Enjoy.
 
 Example: `qcli <command>`
+
+## Requirements
+- golang 
+
+## How to use
+
+- Clone this repo `git clone https://github.com/mrintern/questionable-cli.git`
+- Build the executable `go build main.go` or something like that lol
