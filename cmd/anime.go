@@ -24,22 +24,23 @@ var animeCmd = &cobra.Command{
 		fmt.Println("https://readberserk.com/chapter/berserk-chapter-a0/")
 		fmt.Println("--------------------------------------------------------------------------------")
 	},
-	
+	/*	
 	// do the same thing but with a loop, and less pretty
 	fmt.Println("testing map and loop implementation...")
 
 	var animeMap map[string]string
-	/* create a map*/
+	// create a map
 	animeMap = make(map[string]string)
 	
-	/* insert key-value pairs in the map*/
+	// insert key-value pairs in the map
 	animeMap["One Piece"] = "https://9anime.lu/watch/one-piece.ov8/ep-1"
 	animeMap["Beserk"] = "https://readberserk.com/chapter/berserk-chapter-a0/"
 
-	/* print map using keys*/
+	// print map using keys
 	for show := range animeMap {
 	fmt.Println(show, "," , animeMap[show])
 	}
+	*/
 }
 
 func init() {

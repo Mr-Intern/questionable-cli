@@ -13,4 +13,8 @@ Example: `qcli <command>`
 ## How to use
 
 - Clone this repo `git clone https://github.com/mrintern/questionable-cli.git`
-- Build the executable `go build main.go` or something like that lol
+- Build the executable `go build`
+- `go list -f '{{.Target}}'`
+- `export PATH=$PATH:/path/to/your/install/directory`
+- `go install`
+- `questionable-cli`
