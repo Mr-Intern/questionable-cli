@@ -19,12 +19,12 @@ Example: `qcli <command>`
 4.  add your `/go/bin` directory from the above command to your `$PATH`
 
 for example, if the output is `export PATH=$PATH:/home/intern/go/bin/questionable-cli` your command would be `export PATH=$PATH:/home/intern/go/bin`
-5.  run `alias qcli='questionable-cli'`
-- `go install`
+5.  run `alias qcli='qestionable-cli'`
+6.  run `go install`
 - test your installation by running `qcli` ,  you should see the following output:
 ![image](https://user-images.githubusercontent.com/24460340/183295404-2a162fd0-b7c1-4399-ada5-84a2b65911a7.png)
 
-6 to persist these changes, add the commands from step 4 and 5 to the end of your .bashrc or .zshrc (depending on what terminal you use). It should look something like this:
+7. to persist these changes, add the commands from step 4 and 5 to the end of your .bashrc or .zshrc (depending on what terminal you use). It should look something like this:
 
 ![image](https://user-images.githubusercontent.com/24460340/183295674-881d8113-d79f-4dd7-af9e-b046ef4796b0.png)
 
