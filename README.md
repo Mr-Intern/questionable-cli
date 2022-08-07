@@ -14,9 +14,9 @@ Example: `qcli <command>`
 
 1.  Clone this repo `git clone https://github.com/mrintern/questionable-cli.git`
 2.  Build the executable `go build`
-3.  use the following command to find your /go/bin direcotry
+3.  Use the following command to find your `/go/bin` direcotry
  `go list -f '{{.Target}}'`
-4.  add your `/go/bin` directory from the above command to your `$PATH`
+4.  Add your `/go/bin` directory from the above command to your `$PATH`
 
 for example, if the output is `export PATH=$PATH:/home/intern/go/bin/questionable-cli` your command would be `export PATH=$PATH:/home/intern/go/bin`
 5.  run `alias qcli='qestionable-cli'`
