@@ -2,13 +2,13 @@
 ![image](https://user-images.githubusercontent.com/24460340/182623974-eb0641b1-c686-4261-9cca-1a57c4077f1d.png)
 ## A very questionable cli indeed. Written in Go.
 
-This is a cli written in Go with a lot of help from Cobra. I wrote it to have some practice writing in Go, and writing CLI's. 
+This is a cli written in Go with a lot of help from Cobra. I wrote it to have some practice writing in Go, and writing CLI's.
 It's public but I don't really see what use anyone else could get out of it lol. Enjoy.
 
 Example: `qcli <command>`
 
 ## Requirements
-- golang 
+- golang
 
 ## How to use
 
@@ -18,7 +18,7 @@ Example: `qcli <command>`
  `go list -f '{{.Target}}'`
 4.  Add your `/go/bin` directory from the above command to your `$PATH`
 
-for example, if the output is `export PATH=$PATH:/home/intern/go/bin/questionable-cli` 
+for example, if the output is `export PATH=$PATH:/home/intern/go/bin/questionable-cli`
 your command would be `export PATH=$PATH:/home/intern/go/bin`
 
 5.  Run `alias qcli='questionable-cli'`
@@ -30,4 +30,3 @@ your command would be `export PATH=$PATH:/home/intern/go/bin`
 7. To persist these changes, add the commands from step 4 and 5 to the end of your .bashrc or .zshrc (depending on what terminal you use). It should look something like this:
 
 ![image](https://user-images.githubusercontent.com/24460340/183295674-881d8113-d79f-4dd7-af9e-b046ef4796b0.png)
-
