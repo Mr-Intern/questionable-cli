@@ -8,7 +8,7 @@ It's public but I don't really see what use anyone else could get out of it lol.
 Example: `questionable-cli <command>`
 
 ## Requirements
-- golang
+- golang `sudo apt-get update && sudo apt-get install golang-go`
 
 ## How to use
 
