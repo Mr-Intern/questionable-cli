@@ -14,7 +14,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "qcli",
+	Use:   "questionable-cli",
 	Short: "A very questionable cli indeed.",
 	Long: `
 --------------------------------------------------------------------------------
