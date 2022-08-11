@@ -1,7 +1,3 @@
-/*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-
-*/
 package cmd
 
 import (
@@ -14,7 +10,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "questionable-cli",
+	Use:   "qcli",
 	Short: "A very questionable cli indeed.",
 	Long: `
 --------------------------------------------------------------------------------

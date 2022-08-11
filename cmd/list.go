@@ -18,6 +18,7 @@ var listCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("kubernetes")
 		fmt.Println("web")
+		fmt.Println("oscp")
 		fmt.Println("all")
 	},
 }

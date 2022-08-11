@@ -13,13 +13,12 @@ import (
 // hackCmd represents the hack command
 var hackCmd = &cobra.Command{
 	Use:   "hack",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "get hacking notes",
+	Long: `
+	list - print list of hacking topics
+	ex: qcli hack list
+	ex: qcli hack kubernetes
+	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("hack called")
 	},
