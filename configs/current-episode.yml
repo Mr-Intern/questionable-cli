@@ -1,0 +1,7 @@
+### Dictionary holding most recently watched episode of anime
+# Note: i'm not differentiating between anime and manga for the sake of simplicity. 
+# Weebs have been warned.
+
+lastepisode:
+  onepiece: 150
+  berserk: 2
